@@ -1,4 +1,4 @@
-import logging
+from logger import logging
 import sys     ##core module that lets Pythonprograms inrteract with the interpreter and os at a low level, making it essential for tasks like error handling, script automation and environment config.
 
 def error_message_detail(error, error_detail: sys):

@@ -29,7 +29,9 @@ setup(
     version='0.0.1',
     author="Nishant",
     author_email='nishantkumar1799@gmail.com',
-    packages=find_packages(),
+    # packages=find_packages(),
+    package_dir={'': 'src'},
+    packages=find_packages(where='src'),
     # install_requires=['numpy', 'pandas', 'seaborn']
     install_requires=get_requirements('requirement.txt')
 
